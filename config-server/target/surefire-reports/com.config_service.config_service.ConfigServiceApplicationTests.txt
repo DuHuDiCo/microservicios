@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.config_service.config_service.ConfigServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.895 s - in com.config_service.config_service.ConfigServiceApplicationTests
