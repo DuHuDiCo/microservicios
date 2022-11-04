@@ -1,10 +1,11 @@
+
 package com.usuario_service.usuario_service.service;
 
-import com.usuario_service.usuario_service.models.Usuario;
 import com.usuario_service.usuario_service.feingsClients.CarroFeignClient;
 import com.usuario_service.usuario_service.feingsClients.MotoFeignClient;
 import com.usuario_service.usuario_service.models.Carro;
 import com.usuario_service.usuario_service.models.Moto;
+import com.usuario_service.usuario_service.models.Usuario;
 import com.usuario_service.usuario_service.repository.UsuarioRepository;
 import java.util.HashMap;
 import java.util.List;
@@ -15,7 +16,9 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class UsuarioService {
-
+    
+    
+    
     @Autowired
     private UsuarioRepository usuarioRepository;
 
@@ -89,4 +92,5 @@ public class UsuarioService {
         }
         return resultado;
     }
+
 }
