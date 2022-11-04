@@ -6,12 +6,12 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients
-@SpringBootApplication
 @EnableEurekaClient
+@SpringBootApplication
 public class UsuarioServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UsuarioServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UsuarioServiceApplication.class, args);
+    }
 
 }
