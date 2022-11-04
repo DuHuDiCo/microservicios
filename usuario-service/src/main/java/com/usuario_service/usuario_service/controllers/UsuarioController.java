@@ -1,9 +1,9 @@
 package com.usuario_service.usuario_service.controllers;
 
-import com.usuario_service.usuario_service.entidades.Usuario;
+import com.usuario_service.usuario_service.models.Usuario;
 import com.usuario_service.usuario_service.models.Carro;
 import com.usuario_service.usuario_service.models.Moto;
-import com.usuario_service.usuario_service.service.usuarioService;
+import com.usuario_service.usuario_service.service.UsuarioService;
 import java.util.List;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UsuarioController {
 
     @Autowired
-    private usuarioService usuarioService;
+    private UsuarioService usuarioService;
 
     
     @GetMapping("/")

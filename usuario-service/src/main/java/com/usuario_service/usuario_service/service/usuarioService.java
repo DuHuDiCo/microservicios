@@ -1,6 +1,6 @@
 package com.usuario_service.usuario_service.service;
 
-import com.usuario_service.usuario_service.entidades.Usuario;
+import com.usuario_service.usuario_service.models.Usuario;
 import com.usuario_service.usuario_service.feingsClients.CarroFeignClient;
 import com.usuario_service.usuario_service.feingsClients.MotoFeignClient;
 import com.usuario_service.usuario_service.models.Carro;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class usuarioService {
+public class UsuarioService {
 
     @Autowired
     private UsuarioRepository usuarioRepository;

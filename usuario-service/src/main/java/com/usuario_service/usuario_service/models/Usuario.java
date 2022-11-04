@@ -1,5 +1,5 @@
 
-package com.usuario_service.usuario_service.entidades;
+package com.usuario_service.usuario_service.models;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
